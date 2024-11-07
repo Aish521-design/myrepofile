@@ -1,0 +1,27 @@
+
+git init
+
+
+git add .
+git commit -m "Initial commit"
+
+git remote add origin https://github.com/yourusername/your-repo.git
+
+// branch to main and push it to GitHub
+git branch -M main
+git push -u origin main
+
+// Create the develop branch and push it to GitHub
+git checkout -b develop
+git push -u origin develop
+
+// Create feature branches for each service
+
+// Database service branch
+git checkout -b feature/database-service
+git push -u origin feature/database-service
+
+// Cache service branch
+git checkout -b feature/cache-service
+git push -u origin feature/cache-service
+
